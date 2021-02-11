@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title></title>
+  <script>
+    //const date = getDate()
+    //const hour = getHour()
+    //if (hour <12){
+    //  alter('오전')
+    //else 
+    //  alter('오후')   
+    //}
+
+    const date = new Date() //JS Date 객체를 생성하는 법은 new 연산자를 사용하는 것이 유일
+    const hour = date.getHours() //메서드는 케멀케이스인가보다
+    if (hour < 12){
+      alert('오전')
+    } 
+    if (hour >= 12){
+      alert('오후')
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
