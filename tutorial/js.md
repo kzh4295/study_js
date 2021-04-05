@@ -23,3 +23,7 @@ typeof Symbol("id") // "symbol"
 typeof Math // "object"  (1)
 typeof null // "object"  (2)
 typeof alert // "function"  (3)
+
+# null 과 ??
+- ||는 첫 번째 truthy 값을 반환합니다.
+- ??는 첫 번째 정의된(defined) 값을 반환합니다.
