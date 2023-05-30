@@ -1,0 +1,3 @@
+const multipleThree = (param) =>{
+    return param%3 === 0 ? '짝' : param
+}
