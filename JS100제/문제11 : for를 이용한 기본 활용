@@ -1,0 +1,5 @@
+for(let i = 1; i<=100; i++){
+    s +=i
+}
+console.log(s)
+8622-9b22838c1164e6a8bd83.js:1 10000
