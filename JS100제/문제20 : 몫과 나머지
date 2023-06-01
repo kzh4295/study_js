@@ -1,0 +1,6 @@
+const divide = (param) =>{
+    let [a, b] = param.split(' ')
+    console.log(a / b, a % b)
+}
+
+divide('10 2')
