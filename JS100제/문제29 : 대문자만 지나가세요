@@ -1,0 +1,8 @@
+inputParam = prompt('알파벳을 입력하시오')
+
+const passCapital = (param) => {
+    if(param.charCodeAt()>=65 && param.charCodeAt()<=90) alert('YES')
+    else alert('NO')
+}
+
+passCapital(inputParam)
