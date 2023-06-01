@@ -1,0 +1,7 @@
+let inputHeight = prompt('키를 입력해주세요.');
+const heightVal = (inputHeigt) =>{
+    if(inputHeight >=150) alert('YES')
+    else alert('NO')
+}
+
+heightVal();
