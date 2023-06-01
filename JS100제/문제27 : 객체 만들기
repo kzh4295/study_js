@@ -1,0 +1,8 @@
+const makeObject = (name, score) =>{
+    let [name1, name2] = name.split(' ')
+    let [score1, score2] = score.split(' ')
+    return {[name1]:score1, [name2]:score2} 
+}
+
+
+makeObject('Yujin Hyewon', '70 50');
