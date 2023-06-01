@@ -1,0 +1,7 @@
+let inputPlanet = prompt('행성 이름을 입력하시오')
+
+if(Object.keys(planetObject).includes(inputPlanet)){
+    alert(planetObject[inputPlanet])
+} else{
+    alert('해당하는 행성이 없습니다')
+}
