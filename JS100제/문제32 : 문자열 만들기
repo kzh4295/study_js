@@ -1,0 +1,6 @@
+let inputText = prompt();
+let findText = (param) =>{
+    alert(param.split(' ').length)
+}
+
+findText(inputText)
