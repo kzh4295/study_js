@@ -1,0 +1,6 @@
+let a = prompt('a?')
+let b = prompt('b?')
+
+const square = (a, b) =>{
+   console.log(a ** b)
+}
