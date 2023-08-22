@@ -1,7 +1,5 @@
 승완이가 구현한 프로미스 해석하기!
 
-[오후 6:56] 김지혜(Jihye  Kim)
-
 // executor => executor 함수는 비동기 작업을 시작하고 해당 작업이 완료되면 resolve(pending -> fullfilled) 또는 reject(pending -> rejected) 함수를 호출하여 Promise의 상태를 결정하는 역할을 합니다.
 // executor 함수 내부에서의 비동기 작업은 보통 타이머 함수(setTimeout), 네트워크 요청, 파일 읽기 등이 될 수 있습니다.
 function Promise(executor) {
